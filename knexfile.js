@@ -18,7 +18,7 @@ module.exports = {
       directory: './data/seeds',
     },
   },
-  porduction: {
+  production: {
     client: 'sqlite3',
     useNullAsDefault: true,
     connection: {
