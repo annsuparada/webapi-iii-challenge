@@ -84,10 +84,15 @@ router.put('/:id', (req, res) => {
     
 });
 
+router.post('/:id', (req, res) => {
+
+})
+
 // custom middleware
 
 function validatePostId(req, res, next) {
 
+    
 };
 
 module.exports = router;
